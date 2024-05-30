@@ -1,0 +1,65 @@
+.back{
+    background-image: url("soft\ skills\ \(2\).png");
+    background-repeat: no-repeat;
+    background-size: 100% 8000% ;
+}
+.div{
+    position: fixed;
+    bottom: 10%;
+   right: 30%;
+   
+}
+#name{
+    width:150%;
+    line-height: 200%;
+    text-align: center ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+.w{
+    color: blue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.h{
+    text-decoration: none;
+    background-color: #ffc105;
+    padding: 0px 10px ;
+    margin: 15px 2px;
+    border: none;
+    display: inline-block;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 16px;
+    color: rgb(255, 255, 255); 
+}
+.H{
+    position:fixed;
+    top: 20%;
+    left: 40%; 
+}
+.c{
+    text-decoration: none;
+    background-color: #f5f0e2;
+    border: none;
+    display: inline-block;
+    font-family: serif;
+    font-size: 16px;
+    color: rgb(0, 0, 0);  
+}
+.i{
+    font-family : 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+}
+.bac2k{
+    background-image: url("soft\ skills.png");
+    background-repeat: no-repeat;
+    background-size: 100% 8000% ;
+}
+.f{
+    color: black;
+    font-family: fantasy;
+}
+.div2{
+    position: fixed;
+    bottom: 30%;
+   right: 15%;
+   
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Communication</title>
+<link rel="stylesheet" href="style.css">
+<style>
+    body{
+        background-color: rgb(245, 222, 162);
+    }
+</style>
+</head>
+<body>
+<div class="H">
+<h1 >Communication</h1>
+<form id="yesNoForm">
+  <p class="i">Are you a respectful communicator?</p>
+  <input type="radio" id="Yes1" name="ST" value="1">
+  <label for="Yes1">Yes</label>
+  <input type="radio" id="No1" name="ST" value="0">
+  <label for="No1">No</label>
+  
+  <p class="i">Can you control your anxiety?</p>
+  <input type="radio" id="Yes2" name="ND" value="1">
+  <label for="Yes2">Yes</label>
+  <input type="radio" id="No2" name="ND" value="0">
+  <label for="No2">No</label> 
+
+  <p class="i">Are you a present and active listener?</p>
+  <input type="radio" id="Yes3" name="RD" value="1">
+  <label for="Yes3">Yes</label>
+  <input type="radio" id="No3" name="RD" value="0">
+  <label for="No3">No</label>
+  
+  <p class="i">Do you have the ability to express clearly your ideas ?</p>
+  <input type="radio" id="Yes4" name="TH" value="1">
+  <label for="Yes4">Yes</label>
+  <input type="radio" id="No4" name="TH" value="0">
+  <label for="No4">No</label><br>
+  <input type="submit" value="see score" class="c">
+  <button class="c"><a href="Untitled2.html" class="c">next</a></button>
+</form>
+</div>
+<script >
+  document.getElementById('yesNoForm').onsubmit = function(event) {
+    event.preventDefault(); // Prevent the form from submitting
+    var score = 0;
+    var answers = document.querySelectorAll('#yesNoForm input[type="radio"]:checked');
+    for(var i = 0; i < answers.length; i++) {
+      score += parseInt(answers[i].value, 10);
+    }
+    alert('your score is'+score);
+  };
+</script>
+</body>
+</html>
